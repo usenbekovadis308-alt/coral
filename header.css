@@ -1,0 +1,36 @@
+header {
+  padding-top: 31px;
+}
+
+header .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E3E3E3;
+  padding-bottom: 25px;
+}
+
+header .btns {
+  display: flex;
+  align-items: center;
+
+  .bag {
+    margin-left: 22px;
+  }
+
+  span {
+    margin-left: 8px;
+  }
+}
+
+header .header-bottom {
+  display: flex;
+  gap: 57px;
+  padding-top: 30px;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+}
