@@ -1,0 +1,30 @@
+
+
+.brand .brand-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0;
+
+    img {
+        width: 200px;
+    }
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-img img {
+    width: 648px;
+}
+
+.small-img {
+    display: flex;
+}
+
+.small-img div img {
+    width: 312px;
+}
